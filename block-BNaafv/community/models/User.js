@@ -13,6 +13,8 @@ var userSchema = new Schema(
       required: true,
       minlength: 5,
     },
+    image: String,
+    bio: String,
   },
   { timestamps: true }
 );
